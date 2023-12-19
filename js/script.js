@@ -41,9 +41,11 @@ button.addEventListener('click', function(){
         price = price - sconto20;
         console.log(price.toFixed(2));
         prezzo.innerText = price.toFixed(2) + '€';
+        offerta.innerText = `${offerta}Biglietto scontato 20%`;
     }else {
         console.log(price);
         prezzo.innerText = price.toFixed(2) + '€';
+        offerta.innerText = 'Biglietto prezzo pieno';
     }
 
     //Creo il numero carozza

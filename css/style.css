@@ -49,15 +49,6 @@ input{
     border-radius: 15px;
 }
 
-
-
-.container{
-    max-width: 1080px;
-    margin:0 auto;
-}
-
-
-
 .richieste{
     background-color: white;
     min-height: 200px;
@@ -66,3 +57,5 @@ input{
     align-items: center;
     justify-content: center;
 }
+
+
