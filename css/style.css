@@ -1,0 +1,68 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Generics */ 
+img{
+    width:100%;
+    height: auto;
+    display: block;
+}
+
+body{
+    background-color: red;
+}
+
+h2{
+    color:white;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center
+}
+
+h3{
+    color:white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center
+}
+
+label{
+    margin:0 20px;
+    font-size: 20px;
+}
+
+input{
+    width:50px;
+}
+
+.button{
+    background-color: aqua;
+    margin: 0 20px;
+    padding: 5px 10px;
+    border:1 solid acqua;
+    border-radius: 15px;
+}
+
+
+
+.container{
+    max-width: 1080px;
+    margin:0 auto;
+}
+
+
+
+.richieste{
+    background-color: white;
+    min-height: 200px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
