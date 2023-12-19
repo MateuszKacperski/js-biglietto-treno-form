@@ -32,3 +32,16 @@ Se non vi sentite particolarmente creativi, vi forniamo uno screenshot da seguir
 - Stampare sul biglietto un numero di carrozza e un numero di biglietto casuali
 
 Buon divertimento!
+
+
+
+
+#### Procedimenti
+
+- Crea gli input e il bottone in html
+- Raccogli i dati inseriti dall'utente in delle variabili su javascript
+- Calcola le percentuali 
+- Fai il calcolo del prezzo base del biglietto
+- In base all'età controlla se si ha diritto allo sconto
+- Se lo sconto è appicabile sotrai la somma scontata al prezzo del biglietto
+- Stampa il risultato
