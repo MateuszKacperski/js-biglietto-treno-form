@@ -35,28 +35,28 @@ button.addEventListener('click', function(){
         price = price - sconto40;
         console.log(price.toFixed(2));
         prezzo.innerText = price.toFixed(2) + '€';
-        offerta.innerText = `${offerta}Biglietto scontato 40%`;
+        //offerta.innerText = `${offerta}Biglietto scontato 40%`;
     }else if(eta === 'minorenne'){
         const sconto20 = (20 * price) / 100 ;
         price = price - sconto20;
         console.log(price.toFixed(2));
         prezzo.innerText = price.toFixed(2) + '€';
-        offerta.innerText = `${offerta}Biglietto scontato 20%`;
+        offerta.innerText = `Biglietto scontato 20%`;
     }else {
         console.log(price);
         prezzo.innerText = price.toFixed(2) + '€';
-        offerta.innerText = 'Biglietto prezzo pieno';
+        //offerta.innerText = 'Biglietto prezzo pieno';
     }
 
     //Creo il numero carozza
 
     const numeroCarozza = Math.floor(Math.random()*12)+1;
-    carozza.innerText = carozza + numeroCarozza;
+    carozza.innerText =  numeroCarozza;
 
 
     //Creo Numero biglietto
     const numeroBiglietto = Math.floor(Math.random()*10000)+1;
-    nbiglietto.innerText = nbiglietto + numeroBiglietto;
+    nbiglietto.innerText = numeroBiglietto;
 })
 
 
